@@ -21,6 +21,11 @@ var server = http.createServer(function(request, response){
             response.writeHead(200);
             fs.createReadStream(filepath).pipe(response);
         } else {
+            // try finding read.md util unfound
+            
+            var filepath = path.join(root, 'read.md');
+            fs.stat
+
             console.log('404 '+ request.url);
             response.writeHead(404);
             response.end('404 Not Found');
