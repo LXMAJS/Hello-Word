@@ -1,1 +1,9 @@
 /* pages/index/index.wxss */
+
+.find-input{
+  border: 1px solid #eee;
+  border-radius: 0.2em;
+  margin: 5px 5px;
+  padding: 3px 5px;
+  height: 35px;
+}

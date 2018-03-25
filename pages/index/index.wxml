@@ -1,2 +1,5 @@
 <!--pages/index/index.wxml-->
-<text>这里是小程序</text>
+<input class="find-input" placeholder='请输入书名'>输入书名</input>
+<scroll-view>
+<button>hehe</button>
+</scroll-view>
