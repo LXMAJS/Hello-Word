@@ -1,5 +1,4 @@
 <!--pages/index/index.wxml-->
-<input class="find-input" placeholder='请输入书名'>输入书名</input>
-<scroll-view>
-<button>hehe</button>
-</scroll-view>
+<view class="container">
+  <input class="find-input" placeholder='请输入书名' placeholder-class='find-input-placehold'></input>
+</view>

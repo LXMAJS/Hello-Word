@@ -1,1 +1,49 @@
-/* pages/mine/index.wxss */
+/* pages/index/index.wxss */
+
+page {
+  height: 100%;
+}
+
+.basic-container{
+  height: 100%;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  height: 40%;
+}
+
+.main-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  -moz-border-radius: 50px; /* 老的 Firefox */
+}
+
+.center-container {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  background-color: #444;
+  height: 130px;
+}
+
+.footer-container {
+  background-color: #111;
+  min-height: 300px;
+  width: 100%;
+}
+
+.long-guide{
+  width: 100%;
+  height: 30px;
+  background-color: #aaa;
+}

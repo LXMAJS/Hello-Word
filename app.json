@@ -2,6 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/mine/index",
+    "pages/list/index",
+    "pages/mine/help/index",
     "pages/logs/index"
   ],
   "tabBar": {
@@ -9,6 +11,10 @@
       {
         "pagePath": "pages/index/index",
         "text": "找书"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "text": "分类"
       },
       {
         "pagePath": "pages/mine/index",

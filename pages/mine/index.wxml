@@ -1,2 +1,22 @@
-<!--pages/mine/index.wxml-->
-<text>我的书</text>
+<!--pages/index/index.wxml-->
+<scroll-view class="basic-container">
+  <view class="top-container">
+    <image class="main-avatar" src='../../images/logo_1.jpeg'>
+    </image>
+  </view>
+  <view class="center-container">
+    <button>按钮1</button>
+    <button>按钮2</button>
+    <button>按钮3</button>
+  </view>
+  <view class="footer-container">
+    <view class="long-guide">
+      <text>关于</text>
+      <button>></button>
+    </view>
+    <view class="long-guide">
+      <text>帮助</text>
+      <button>></button>
+    </view>
+  </view>
+</scroll-view>

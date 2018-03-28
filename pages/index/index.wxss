@@ -1,9 +1,24 @@
 /* pages/index/index.wxss */
 
-.find-input{
-  border: 1px solid #eee;
+page {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+
+.find-input {
+  border: 1px solid #ddd;
   border-radius: 0.2em;
-  margin: 5px 5px;
   padding: 3px 5px;
   height: 35px;
+  width: 85%;
+}
+
+.find-input-placehold {
+  color: #ddd;
 }
