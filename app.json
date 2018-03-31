@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/mine/index",
+    "pages/index/index",
     "pages/list/index",
     "pages/mine/help/index",
     "pages/logs/index"
@@ -9,15 +9,23 @@
   "tabBar": {
     "list": [
       {
+        "pagePath": "pages/list/index",
+        "selectedIconPath": "image/bar-icon/home.png",
+        "iconPath": "image/bar-icon/home_HL.png",
+        "text": "首页",
+        "selectedColor": "#4293f8"
+      },
+      {
         "pagePath": "pages/index/index",
+        "selectedIconPath": "image/bar-icon/search.png",
+        "iconPath": "image/bar-icon/search_HL.png",
+        "selectedColor": "4293f8",
         "text": "找书"
       },
       {
-        "pagePath": "pages/list/index",
-        "text": "分类"
-      },
-      {
         "pagePath": "pages/mine/index",
+        "selectedIconPath": "image/bar-icon/mine.png",
+        "iconPath": "image/bar-icon/mine_HL.png",
         "text": "我的"
       }
     ]
