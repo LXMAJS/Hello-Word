@@ -1,1 +1,23 @@
 /* pages/list/index.wxss */
+
+.main-list{
+  height: 100%;
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.book-item{
+  height: 180px;
+  width: 100px;
+  padding:3px;
+  background: #aaa;
+}
+
+.book-avatar{
+  height: 80%;
+  width: 90%;
+  background: #999;
+}

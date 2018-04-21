@@ -1,2 +1,32 @@
 <!--pages/list/index.wxml-->
-<text>pages/list/index.wxml</text>
+
+<scroll-view class="main-list">
+  <view class="book-item">
+    <image class="book-avatar"></image>
+    <text class="bool-title">书名1</text>
+  </view>
+  <view class="book-item">
+    <image class="book-avatar"></image>
+    <text class="bool-title">书名2</text>
+  </view>
+  <view class="book-item">
+    <image class="book-avatar"></image>
+    <text class="bool-title">书名3</text>
+  </view>
+  <view class="book-item">
+    <image class="book-avatar"></image>
+    <text class="bool-title">书名4</text>
+  </view>
+  <view class="book-item">
+    <image class="book-avatar"></image>
+    <text class="bool-title">书名5</text>
+  </view>
+  <view class="book-item">
+    <image class="book-avatar"></image>
+    <text class="bool-title">书名6</text>
+  </view>
+  <view class="book-item">
+    <image class="book-avatar"></image>
+    <text class="bool-title">书名1</text>
+  </view>
+</scroll-view>

@@ -11,18 +11,11 @@
 
 .top-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 35%;
-}
-
-.center-showplace {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  height: 100%;
+  width: 100%;
+  height: 35%;
 }
 
 .mine-avatar {
@@ -51,7 +44,7 @@
   flex-wrap: wrap;
   justify-content: left;
   align-items: center;
-  height: 130px;
+  height: 110px;
 }
 
 .center-button {

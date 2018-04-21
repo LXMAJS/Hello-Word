@@ -1,32 +1,32 @@
 {
   "pages": [
-    "pages/mine/index",
-    "pages/index/index",
+    "pages/search/index",
     "pages/list/index",
+    "pages/mine/index",
     "pages/mine/help/index",
     "pages/logs/index"
   ],
   "tabBar": {
+    "selectedColor": "#4293f8",
     "list": [
       {
         "pagePath": "pages/list/index",
         "selectedIconPath": "image/bar-icon/home.png",
         "iconPath": "image/bar-icon/home_HL.png",
-        "text": "首页",
-        "selectedColor": "#4293f8"
+        "text": "首页"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/search/index",
         "selectedIconPath": "image/bar-icon/search.png",
         "iconPath": "image/bar-icon/search_HL.png",
         "selectedColor": "4293f8",
-        "text": "找书"
+        "text": "找"
       },
       {
         "pagePath": "pages/mine/index",
         "selectedIconPath": "image/bar-icon/mine.png",
         "iconPath": "image/bar-icon/mine_HL.png",
-        "text": "我的"
+        "text": "黄金屋"
       }
     ]
   },

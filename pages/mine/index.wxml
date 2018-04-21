@@ -1,30 +1,31 @@
 <!--pages/index/index.wxml-->
 <view class="basic-container">
   <view class="top-container containers">
-    <view class="center-showplace">
       <image class="mine-avatar" src='../../image/logo_1.jpeg'></image>
       <text class="mine-nickname">LXMAJS</text>
-    </view>
+      <view class="">
+
+      </view>
   </view>
   <view class="center-container containers">
     <view class="center-button">
-      <image class="center-button-icon" src='../../image/logo_1.jpeg'></image>
-      <text class="mine-nickname">收藏夹</text>
+      <image class="center-button-icon" src='../../image/mine-icon/book.png'></image>
+      <text class="mine-nickname">书架</text>
     </view>
     <view class="center-button">
-      <image class="center-button-icon" src='../../image/logo_1.jpeg'></image>
-      <text class="mine-nickname">书库</text>
-    </view>
-    <view class="center-button">
-      <image class="center-button-icon" src='../../image/logo_1.jpeg'></image>
+      <image class="center-button-icon" src='../../image/mine-icon/footstep.png'></image>
       <text class="mine-nickname">脚印</text>
+    </view>
+    <view class="center-button">
+      <image class="center-button-icon" src='../../image/mine-icon/setting.png'></image>
+      <text class="mine-nickname">设置</text>
     </view>
   </view>
   <view class="footer-container containers">
     <view class="long-guide long-guide-header">
       <view class="long-guide-remind">
-        <image class="long-guide-icon" src='../../image/logo_1.jpeg'></image>
-        <text>关于</text>
+        <image class="long-guide-icon" src='../../image/mine-icon/help.png'></image>
+        <text>帮助</text>
       </view>
       <view class="angle-window">
         <view class="right-angle"></view>
@@ -32,8 +33,8 @@
     </view>
     <view class="long-guide">
       <view class="long-guide-remind">
-        <image class="long-guide-icon" src='../../image/logo_1.jpeg'></image>
-        <text>帮助</text>
+        <image class="long-guide-icon" src='../../image/mine-icon/about.png'></image>
+        <text>关于</text>
       </view>
       <view class="angle-window">
         <view class="right-angle"></view>

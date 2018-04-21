@@ -1,4 +1,0 @@
-<!--pages/index/index.wxml-->
-<view class="container">
-  <input class="find-input" placeholder='请输入书名' placeholder-class='find-input-placehold'></input>
-</view>
