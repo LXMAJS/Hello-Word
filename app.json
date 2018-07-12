@@ -1,22 +1,17 @@
 {
   "pages": [
-    "pages/search/index",
     "pages/list/index",
     "pages/mine/index",
+    "pages/search/index",
     "pages/mine/help/index",
-    "pages/logs/index"
+    "pages/logs/index",
+    "pages/list/detail/index"
   ],
   "tabBar": {
     "selectedColor": "#4293f8",
     "list": [
       {
         "pagePath": "pages/list/index",
-        "selectedIconPath": "image/bar-icon/home.png",
-        "iconPath": "image/bar-icon/home_HL.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/search/index",
         "selectedIconPath": "image/bar-icon/search.png",
         "iconPath": "image/bar-icon/search_HL.png",
         "selectedColor": "4293f8",
@@ -31,10 +26,10 @@
     ]
   },
   "window": {
-    "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "你想找什么书",
-    "backgroundColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#589ff8",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "找什么书",
+    "backgroundColor": "#eee",
     "backgroundTextStyle": "light"
   },
   "networkTimeout": {

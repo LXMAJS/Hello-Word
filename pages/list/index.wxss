@@ -1,22 +1,66 @@
 /* pages/list/index.wxss */
 
-.main-list{
-  height: 100%;
+.head-nav {
+  height: 32px;
   width: 100%;
-  background-color: #eee;
+  background: #589ff8;
+  position: fixed;
+  top: 0;
+  z-index: 999;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+  padding: 4px;
 }
 
-.book-item{
+.head-nav .scanning, .head-nav .more {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  color: #fff;
+}
+
+.head-nav .scanning .scanning-icon, .head-nav .more .more-icon {
+  width: 20px;
+  height: 20px;
+  padding: 1px;
+}
+
+.head-nav .center-search {
+  width: 80%;
+}
+
+.head-nav .center-search-input {
+  height: 100%;
+  background: #fff;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 0px 15px;
+}
+
+/* - center content - */
+
+.main-list {
+  position: absolute;
+  top: 45px;
+}
+
+.man-list:-webkit-scrollbar{
+  display: none;
+}
+
+.book-item {
   height: 180px;
-  width: 100px;
-  padding:3px;
+  width: 32%;
+  margin: 2px;
+  text-align: center;
   background: #aaa;
+  float: left;
 }
 
-.book-avatar{
+.book-avatar {
   height: 80%;
   width: 90%;
   background: #999;

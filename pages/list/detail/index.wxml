@@ -1,0 +1,2 @@
+<!--pages/list/detail/index.wxml-->
+<text>{{result}}</text>
