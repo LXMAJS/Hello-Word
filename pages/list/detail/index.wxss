@@ -1,1 +1,40 @@
 /* pages/list/detail/index.wxss */
+
+.detail-container{
+  width: 100%;
+  height: 100%;
+  background: green;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.cover{
+  width: 50%;
+  height: 200px;
+  background:orange;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.introduction{
+  width: 50%;
+  height: 200px;
+  background:blue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+
+.bottom-nav {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: red;
+  display: flex;
+}

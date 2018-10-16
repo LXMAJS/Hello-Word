@@ -1,2 +1,10 @@
 <!--pages/list/detail/index.wxml-->
-<text>{{result}}</text>
+<scroll-view class="detail-container">
+  <image class="cover" src='../../../image/book-detail/cover.jpg'></image>
+  <view class="introduction"></view>
+  <text>{{result}}</text>
+</scroll-view>
+<!-- 这里是底部代码 -->
+<view class="bottom-nav">
+
+</view>

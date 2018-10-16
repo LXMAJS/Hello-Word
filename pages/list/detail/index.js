@@ -5,16 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    result: ""
+    result: "00000"
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this;
-    that.result = options.result;
-    console.log(options.result);
+    // var that = this;
+    // this.result = options.result;
+    this.data.result = '111111'
+    console.log('hahaha: '+ options.result);
   },
 
   /**
@@ -22,6 +23,7 @@ Page({
    */
   onReady: function () {
 
+    this.result = '222222s'
   },
 
   /**
@@ -29,6 +31,7 @@ Page({
    */
   onShow: function () {
 
+    this.result = '333333'
   },
 
   /**

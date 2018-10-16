@@ -1,8 +1,8 @@
 <!--pages/index/index.wxml-->
 <view class="basic-container">
   <view class="top-container containers">
-      <image class="mine-avatar" src='../../image/logo_1.jpeg'></image>
-      <text class="mine-nickname">LXMAJS</text>
+      <image class="mine-avatar" src='{{userInfo.avatarUrl}}'></image>
+      <text class="mine-nickname">{{userInfo.nickName}}</text>
       <view class="">
 
       </view>
