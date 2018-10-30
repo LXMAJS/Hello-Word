@@ -1,0 +1,9 @@
+/* pages/mine/unlogin/unlogin.wxss */
+.loginButton{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 200px;
+  top: 300px;
+  border: 1px solid #eee;
+}

@@ -1,11 +1,12 @@
 {
   "pages": [
-    "pages/mine/index",
+    "pages/mine/unlogin/unlogin",
     "pages/list/detail/index",
     "pages/list/index",
     "pages/search/index",
     "pages/mine/help/index",
-    "pages/logs/index"
+    "pages/logs/index",
+    "pages/mine/index"
   ],
   "tabBar": {
     "selectedColor": "#4293f8",
@@ -18,7 +19,7 @@
         "text": "找"
       },
       {
-        "pagePath": "pages/mine/index",
+        "pagePath": "pages/mine/unlogin/unlogin",
         "selectedIconPath": "image/bar-icon/mine.png",
         "iconPath": "image/bar-icon/mine_HL.png",
         "text": "黄金屋"

@@ -1,0 +1,2 @@
+<!--pages/mine/unlogin/unlogin.wxml-->
+<button class="loginButton" type='warn' open-type='getUserInfo' bindgetuserinfo='doLogin'>微信授权</button>

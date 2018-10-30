@@ -1,6 +1,9 @@
 const openIdUrl = require('./config').openIdUrl
 
 App({
+  serverUrl: "http://127.0.0.1:8082/library",
+  userInfo: null,
+
   onLaunch: function () {
     console.log('App Launch')
   },
