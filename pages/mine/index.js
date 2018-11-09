@@ -25,8 +25,8 @@ Page({
         console.log(res);
         var avatarUrl = 'userInfo.avatarUrl';
         var nickName = 'userInfo.nickName';
-        console.log("【avacarUrl】:" + avatarUrl);
-        console.log(nickName);
+        console.log("【avacarUrl】:" + res.userInfo.avatarUrl);
+        console.log(res.userInfo.nickName);
         that.setData({
           [avatarUrl]: res.userInfo.avatarUrl,
           [nickName]: res.userInfo.nickName,

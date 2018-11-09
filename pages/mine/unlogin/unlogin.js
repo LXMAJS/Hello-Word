@@ -27,7 +27,10 @@ Page({
           method: "POST",
           success: function(result) {
             console.log("login successed!!!");
-            console.log(result);
+            app.setGlobalUserInfo(e.detail.userInfo);
+            wx.redirectTo({
+              url: '../index',
+            })
           }
         })
       }

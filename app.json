@@ -29,7 +29,7 @@
   "window": {
     "navigationBarBackgroundColor": "#589ff8",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "找什么书",
+    "navigationBarTitleText": "书店",
     "backgroundColor": "#eee",
     "backgroundTextStyle": "light"
   },
