@@ -1,11 +1,14 @@
 
 var order = ['red', 'yellow', 'blue', 'green', 'red']
+var app = getApp();
+
 // pages/list/index.js
 Page({
 
   data: {
     toView: 'red',
-    scrollTop: 100
+    scrollTop: 100,
+    list: null
   },
   upper: function (e) {
     console.log(e)
@@ -36,7 +39,28 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var that = this;
+    wx.request({
+      url: app.globalData.serverUrl + "/book/list",
+      method: "get",
+      data: {},
+      success: function (res) {
+        console.log(res.data);
+        var list = res.data.data;
+        if (res.data.success && list != null) {
+          that.setData({
+            list: list
+          })
+        } else {
+          var toastText = "获取数据失败";
+          wx.showToast({
+            title: toastText,
+            icon: "none",
+            duration: 2000
+          })
+        }
+      }
+    })
   },
 
   /**
@@ -108,6 +132,15 @@ Page({
       complete: function (res) {
 
       },
+    })
+  },
+  /**
+   * 查看某本书的详情
+   */
+  viewDetail: function (event) {
+    console.log("")
+    wx.redirectTo({
+      url: './detail/index?bookId=' + event.target.dataset.itemId,
     })
   }
 })

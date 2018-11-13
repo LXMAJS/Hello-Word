@@ -1,21 +1,43 @@
 // pages/list/detail/index.js
+var app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    result: "00000"
+    bookId: "00000"
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // var that = this;
-    // this.result = options.result;
-    this.data.result = '111111'
-    console.log('hahaha: '+ options.result);
+    this.data.bookId = "11";
+    console.log('options: ' + options.bookId);
+    console.log('data.bookId: ' + this.data.bookId);
+    var bookId = this.data.bookId;
+    wx.request({
+      url: app.globalData.serverUrl + "/book/getbyid",
+      data:{
+        "bookId": bookId
+      },
+      method: "GET",
+      success: function(res) {
+        console.log(res);
+        console.log(res.data);
+        if(!res.data.success){
+          var toastText = res.data.msg;
+          wx.showToast({
+            title: toastText,
+            icon: "",
+            duration: 2000
+          });
+        } else {
+
+        }
+      }
+    })
   },
 
   /**

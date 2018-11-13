@@ -1,4 +1,6 @@
 // pages/mine/index.js
+var app = getApp();
+
 Page({
 
   /**

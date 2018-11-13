@@ -1,7 +1,6 @@
 const openIdUrl = require('./config').openIdUrl
 
 App({
-  serverUrl: "http://127.0.0.1:8082/library",
   userInfo: null,
 
   onLaunch: function () {
@@ -15,7 +14,8 @@ App({
   },
   globalData: {
     hasLogin: false,
-    openid: null
+    openid: null,
+    serverUrl: "http://127.0.0.1:8082/library",
   },
   // lazy loading openid
   getUserOpenId: function (callback) {
@@ -48,26 +48,5 @@ App({
         }
       })
     }
-  },
-  getUserInfo: function (cb) {
-    var that = this;
-    if (this.globalData.userInfo) {
-      typeof cb == "function" && cb(this.globalData.userInfo)
-    } else {
-      //调用登录接口
-      wx.login({
-        success: function () {
-          wx.getUserInfo({
-            success: function (res) {
-              that.globalData.userInfo = res.userInfo;
-              typeof cb == "function" && cb(that.globalData.userInfo)
-            }
-          })
-        }
-      });
-    }
-  },
-  globalData: {
-    userInfo: null
   }
 })

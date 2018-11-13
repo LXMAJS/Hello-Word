@@ -1,4 +1,6 @@
 // pages/mine/unlogin/unlogin.js
+var app = getApp();
+
 Page({
 
   /**
@@ -17,13 +19,13 @@ Page({
     console.log(e.detail.rawData);
 
     wx.login({
-      success: function(res) {
+      success: function(res) {``
         console.log(res);
         // 获取用户的临时登录凭证
         var code = res.code;
         // 调用后端，获取微信的session_key, secret
         wx.request({
-          url: "http://127.0.0.1:8082/library" + "/user/wxlogin" + "?code=" + code,
+          url: app.globalData.serverUrl + "/user/wxlogin" + "?code=" + code,
           method: "POST",
           success: function(result) {
             console.log("login successed!!!");

@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/mine/unlogin/unlogin",
     "pages/list/detail/index",
     "pages/list/index",
     "pages/search/index",
     "pages/mine/help/index",
     "pages/logs/index",
-    "pages/mine/index"
+    "pages/mine/index",
+    "pages/mine/unlogin/unlogin"
   ],
   "tabBar": {
     "selectedColor": "#4293f8",

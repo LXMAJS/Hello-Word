@@ -7,95 +7,10 @@
   <view class="center-search">
     <input class="center-search-input" placeholder='搜索'></input>
   </view>
-  <view class="more">
-    <image class="more-icon" src='../../image/index-icon/more-fff.png'></image>
-    <text>排序</text>
-  </view>
 </view>
 <scroll-view scroll-top="{{ scrollTop }}" class="main-list">
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名1</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名2</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
-  </view>
-  <view class="book-item">
-    <image class="book-avatar"></image>
-    <text class="bool-title">书名3</text>
+  <view class="book-item" wx:for="{{list}}" bindtap="viewDetail" data-itemId="{{item.id}}">
+      <image class="book-avatar">{{item.id}}</image>
+      <text class="bool-title">{{item.title}}</text>
   </view>
 </scroll-view>
