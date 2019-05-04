@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/list/detail/index",
     "pages/list/index",
     "pages/search/index",
     "pages/mine/help/index",

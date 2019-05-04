@@ -1,0 +1,23 @@
+{
+  "name": "kindlepush",
+  "version": "1.0.0",
+  "description": "Preview",
+  "main": "app.js",
+  "dependencies": {
+    "vant-weapp": "^0.5.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LXMAJS/kindlepush.git"
+  },
+  "author": "lxmajs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LXMAJS/kindlepush/issues"
+  },
+  "homepage": "https://github.com/LXMAJS/kindlepush#readme"
+}

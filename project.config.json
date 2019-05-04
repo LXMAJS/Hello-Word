@@ -5,17 +5,15 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"uglifyFileName": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
 	"appid": "wxc1a30145d1681a06",
 	"projectname": "%E6%89%BE%E4%BB%80%E4%B9%88%E4%B9%A6",
-	"svr": "",
-	"client": "",
-	"qcloudRoot": "",
-	"miniprogramRoot": "",
-	"pluginRoot": "",
 	"scripts": {},
 	"condition": {
 		"search": {
